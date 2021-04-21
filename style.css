@@ -1,0 +1,45 @@
+.nav{
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    padding-right: 30px;
+}
+.nav-links{
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+} 
+
+.active{
+    color:rgb(219, 215, 215)
+}
+
+.btn{
+    font-size: 1.6rem;
+    color: white;
+    background-color:rgb(54, 125, 167);
+    width: 150px;
+    height: 35px;
+    box-shadow: 5px 5px black;
+    {border-style: solid;}
+}
+
